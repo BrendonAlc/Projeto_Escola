@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Escola</title>
+    <!--verificar fonte
+    linkar com css-->
+    
+
+</head>
+<body>
+<div class="container">
+    <header> <!--cabecalho-->
+        <img> <!--Adicionar imagem do cabecalho caso tenha-->
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="matricula.html">Matrícula</a>
+                    </li>
+                    <li>
+                        <a href="areaDoAluno.html">Area do Aluno</a>
+                    </li>
+                    <li>
+                        <a href="areaDePais.html">Area de pais</a>
+                    </li>
+                    <li>
+                        <a href="areaDoProfessor.html">Area do Professor</a>
+                    </li>
+                    <li>
+                        <a href="administrativo.html">Administrativo</a>
+                    </li>
+                    <li>
+                        <a href="financeiro.html">Financeiro</a>
+                    </li>
+                    <li>
+                        <a href="contato.html" target="_self">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+
+    <h1>Matrículas</h1>
+
+    <h2>O "NOME DA ESCOLA" quer ter a satisfação de participar da formação do seu filho. Por isso, informa que as Matrículas já estão disponíveis. Escolha uma de nossas Unidades, agende uma visita e venha compartilhar conosco um ano de muitas conquistas!</h2>
+
+    <h3>O atendimento poderá ocorrer de forma presencial ou virtual, conforme a sua disponibilidade. Preencha os dados abaixo para melhor atendimento.</h3>
+
+    <!--Sessao para agendamento de visita a escola-->
+    <section>
+        <h2>Agende uma visita</h2>
+        <fieldset>
+          <legend>Responsável de Contato</legend> <!--selecionar qual responsável estará na visita-->
+          <ul>
+              <li>
+                <label for="title_1">
+                  <input type="radio" id="title_1" name="title">Pai
+              </li>
+              <li>
+                <label for="title_2">
+                  <input type="radio" id="title_2" name="title">Mãe             
+                </label>
+              </li>
+              <li>
+                <label for="title_3">
+                  <input type="radio" id="title_3" name="title">Outros       
+                  <input type="text" id="title_3" name="title"> <!--Para informar parentesco-->
+                </label>
+              </li>
+          </ul>
+        </fieldset>
+        <p>
+            <label for="name">
+                <span>Name: </span>
+                <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="text" id="name" name="username">
+        </p>
+        <p>
+            <label for="mail">
+                <span>E-mail: </span>
+                <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="email" id="mail" name="usermail">
+        </p>
+        <p>
+            <label for="phone">
+                <span>Telefone: </span>
+                <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="tel" id="phone" name="phone" size="1" maxlength="2"> - <input type="tel" id="phone2" size="5" maxlength="5">-<input type="tel" name="phone3" size="4" maxlength="4">
+        </p>
+        <p>
+            <label for="date">
+              <span>Data da visita:</span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="date" id="date" name="agendamento">
+        </p>
+
+        <p>
+            <input type="text" name="comentario" size="200"/>
+        </p>
+
+        <button type="submit" name="agendar">Agendar</button>
+
+    </section>
+
+
+
+
+
+    <footer>Grupo Educacional XYZ | Todos os direitos reservados. Política de Privacidade</footer>
+</div>
+</body>
+</html>
