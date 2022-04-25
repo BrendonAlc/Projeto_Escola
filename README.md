@@ -16,10 +16,10 @@
 #Para verificar se houve exito em adicionar, utilizar o comando: git status
 #Obtemos as seguintes informações:
 
-#    Se a branch em que estamos no momento está atualizada
-#    Se precisamos fazer o commit, push ou pull de algo
-#    Se os arquivos estão em fase de stage, fora dessa fase ou se não estão sendo rastreados
-#    Se arquivos foram criados, modificados ou excluídos
+#Se a branch em que estamos no momento está atualizada
+#Se precisamos fazer o commit, push ou pull de algo
+#Se os arquivos estão em fase de stage, fora dessa fase ou se não estão sendo rastreados
+#Se arquivos foram criados, modificados ou excluídos
 
 #4.Git add
 #Para adicionar um único arquivo: git add <arquivo>
