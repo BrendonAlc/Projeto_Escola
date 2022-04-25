@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Escola</title>
+    <title>Financeiro</title>
     <!--verificar fonte
     linkar com css-->
     
@@ -23,13 +23,13 @@
                         <a href="matricula.html">Matrícula</a>
                     </li>
                     <li>
-                        <a href="areaDoAluno.html">Area do Aluno</a>
+                        <a href="areaDoAluno.html">Área do Aluno</a>
                     </li>
                     <li>
-                        <a href="areaDePais.html">Area de pais</a>
+                        <a href="areaDePais.html">Área de pais</a>
                     </li>
                     <li>
-                        <a href="areaDoProfessor.html">Area do Professor</a>
+                        <a href="areaDoProfessor.html">Área do Professor</a>
                     </li>
                     <li>
                         <a href="administrativo.html">Administrativo</a>
@@ -50,36 +50,28 @@
           <label for="card">
             <span>Tipo:</span>
           </label>
-          <select id="pagamento" name="usercard">
-            <option value="boleto">Boleto</option>
-            <option value="visa">Visa</option>
-            <option value="mc">Mastercard</option>
-            <option value="amex">American Express</option>
-          </select>
+            <input id="pagamento" type="radio" value="boleto">Boleto</input>
         </p>
         <p>
-          <label for="number">
-            <span>Card number:</span>
+          <label for="email">
+            <span>Informe o e-mail:</span>
             <strong><abbr title="required">*</abbr></strong>
           </label>
-          <input type="number" id="number" name="cardnumber">
+          <input type="email" id="email" required>
         </p>
         <p>
           <label for="date">
-            <span>Data de validade:</span>
+            <span>Data de vencimento:</span>
             <strong><abbr title="required">*</abbr></strong>
           </label>
-          <input type="date" id="date" name="expiration">
+          <input type="date" id="date" name="vencimento" required>
         </p>
 
-        <button type="submit" id="finalizar">Finalizar</button>
+        <button type="submit" id="finalizar">Gerar boleto</button>
     </section>
 
 
-
-
-
-    <footer>Grupo Educacional XYZ | Todos os direitos reservados. Política de Privacidade</footer>
+    <footer>Grupo Educacional Escola Café e Software | Todos os direitos reservados. Política de Privacidade</footer>
 </div>
 </body>
 </html>
